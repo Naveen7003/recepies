@@ -15,7 +15,7 @@ const Nav = () => {
                   <NavLink className={(e) => (e.isActive ? "text-green-600": "")} to="/about">About</NavLink>
                 </li>
                 <li>
-                  <NavLink className={(e) => (e.isActive ? "text-green-600": "")} to="/recepie">Recepie</NavLink>
+                  <NavLink className={(e) => (e.isActive ? "text-green-600": "")} to="/recipe">Recipe</NavLink>
                 </li>
                 <li>
                   <NavLink className={(e) => (e.isActive ? "text-green-600": "")} to="/contact">Contact</NavLink>
