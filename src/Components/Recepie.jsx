@@ -1,11 +1,13 @@
-import React, { useContext } from "react";
+import React, { useContext, useEffect } from "react";
 import Card from "./Card";
 import { Link, useLocation } from "react-router-dom";
 import { Recipecontext } from "../context/RecipeContext";
 const Recipes = () => {
     const [recipe, setrecipe] = useContext(Recipecontext);
     const { pathname } = useLocation();
-    console.log(recipe);
+    useEffect(() =>{
+        setrecipe(JSON.parse(localStorage.getItem("recipe")) || [])
+    },[])
     return (
         <div className=" ">
             <h1 className="text-center text-2xl font-semibold">OUR RECIPES</h1>
@@ -21,6 +23,8 @@ const Recipes = () => {
                         No Recipe Found
                     </h1>
                 )}
+
+                
             </div>
             {pathname === "/recipe" && (
                 <Link

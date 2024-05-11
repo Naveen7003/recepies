@@ -16,12 +16,7 @@ const Home = () => {
         <h1 className='text-2xl text-center font-semibold'>Our Recipes</h1>
         <p className='text-center mt-6'>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Accusamus, iusto!</p>
         <div className='flex pl-48 pt-10 flex-wrap gap-8'>
-          <Card />
-          <Card />
-          <Card />
-          <Card />
-          <Card />
-          {/* <Link to="/samagri" className=" mb-[3%] text-center w-[20%]  b p-5 shadow-[10px_10px_15px_0px_rgba(0,0,0,0.1)] hover:scale-[1.02] duration-200">
+          <Link to="/recipe" className=" mb-[3%] text-center w-[20%]  b p-5 shadow-[10px_10px_15px_0px_rgba(0,0,0,0.1)] hover:scale-[1.02] duration-200">
             <div className='h-[50vh] w-[50vh] bg-slate-100 shadow-2xl'>
                 <img className='h-[35vh]' src="https://www.nicepng.com/png/detail/21-210980_north-indian-foods-png-download-food.png" alt="" />
                 <h1 className='text-center text-xl mt-1 font-semibold'>North Indian</h1>
@@ -33,7 +28,7 @@ const Home = () => {
                 </div>
             </div>
           </Link>
-          <Link to="/samagri" className="ml-36 mb-[3%] text-center w-[30%]  b p-5 shadow-[10px_10px_15px_0px_rgba(0,0,0,0.1)] hover:scale-[1.02] duration-200">
+          <Link to="/recipe" className="ml-36 mb-[3%] text-center w-[30%]  b p-5 shadow-[10px_10px_15px_0px_rgba(0,0,0,0.1)] hover:scale-[1.02] duration-200">
             <div className='h-[50vh] w-[50vh] bg-slate-100 shadow-2xl'>
                 <img className='h-[35vh]' src="https://www.nicepng.com/png/detail/21-210980_north-indian-foods-png-download-food.png" alt="" />
                 <h1 className='text-center text-xl mt-1 font-semibold'>North Indian</h1>
@@ -45,7 +40,7 @@ const Home = () => {
                 </div>
             </div>
           </Link>
-          <Link to="/samagri" className=" mb-[3%] text-center w-[30%]  b p-5 shadow-[10px_10px_15px_0px_rgba(0,0,0,0.1)] hover:scale-[1.02] duration-200">
+          <Link to="/recipe" className=" mb-[3%] text-center w-[30%]  b p-5 shadow-[10px_10px_15px_0px_rgba(0,0,0,0.1)] hover:scale-[1.02] duration-200">
             <div className='h-[50vh] w-[50vh] bg-slate-100 shadow-2xl'>
                 <img className='h-[35vh]' src="https://www.nicepng.com/png/detail/21-210980_north-indian-foods-png-download-food.png" alt="" />
                 <h1 className='text-center text-xl mt-1 font-semibold'>North Indian</h1>
@@ -57,7 +52,7 @@ const Home = () => {
                 </div>
             </div>
           </Link>
-          <Link to="/samagri" className=" mb-[3%] text-center w-[30%]  b p-5 shadow-[10px_10px_15px_0px_rgba(0,0,0,0.1)] hover:scale-[1.02] duration-200">
+          <Link to="/recipe" className=" mb-[3%] text-center w-[30%]  b p-5 shadow-[10px_10px_15px_0px_rgba(0,0,0,0.1)] hover:scale-[1.02] duration-200">
             <div className='h-[50vh] w-[50vh] bg-slate-100 shadow-2xl'>
                 <img className='h-[35vh]' src="https://www.nicepng.com/png/detail/21-210980_north-indian-foods-png-download-food.png" alt="" />
                 <h1 className='text-center text-xl mt-1 font-semibold'>North Indian</h1>
@@ -69,7 +64,7 @@ const Home = () => {
                 </div>
             </div>
           </Link>
-          <Link to="/samagri" className=" mb-[3%] text-center w-[30%]  b p-5 shadow-[10px_10px_15px_0px_rgba(0,0,0,0.1)] hover:scale-[1.02] duration-200">
+          <Link to="/recipe" className=" mb-[3%] text-center w-[30%]  b p-5 shadow-[10px_10px_15px_0px_rgba(0,0,0,0.1)] hover:scale-[1.02] duration-200">
             <div className='h-[50vh] w-[50vh] bg-slate-100 shadow-2xl'>
                 <img className='h-[35vh]' src="https://www.nicepng.com/png/detail/21-210980_north-indian-foods-png-download-food.png" alt="" />
                 <h1 className='text-center text-xl mt-1 font-semibold'>North Indian</h1>
@@ -80,7 +75,7 @@ const Home = () => {
                     <i class="ri-share-line"></i>
                 </div>
             </div>
-          </Link> */}
+          </Link>
         </div>
         </div>
         <h1 className='text-3xl font-semibold text-center mt-16'>Our Awesome Services</h1>
