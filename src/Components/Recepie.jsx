@@ -1,13 +1,10 @@
-import React, { useContext, useEffect } from "react";
 import Card from "./Card";
 import { Link, useLocation } from "react-router-dom";
-import { Recipecontext } from "../context/RecipeContext";
+import { useSelector } from "react-redux";
 const Recipes = () => {
-    const [recipe, setrecipe] = useContext(Recipecontext);
+    const {recipe} = useSelector((state)=> state.recipeReducer)
     const { pathname } = useLocation();
-    useEffect(() =>{
-        setrecipe(JSON.parse(localStorage.getItem("recipe")) || [])
-    },[])
+    
     return (
         <div className=" ">
             <h1 className="text-center text-2xl font-semibold">OUR RECIPES</h1>
